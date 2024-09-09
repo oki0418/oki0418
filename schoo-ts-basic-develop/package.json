@@ -1,0 +1,16 @@
+{
+  "name": "schoo-ts-basic",
+  "version": "1.0.0",
+  "description": "Schooで公開しているTypeScript入門講座で使用するリポジトリ",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "node build/index.js"
+  },
+  "author": "deatiger",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
